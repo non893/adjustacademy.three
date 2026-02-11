@@ -1,0 +1,232 @@
+$color: #161616;
+$baseColor:#0d111f;
+$accentColor:#E79317;
+$inputText:1.8rem;
+$inputTitle:2.4rem;
+// $pc: 1080px;
+$tab: 1114px;
+$sp: 768px;
+$sp2: 500px;
+
+// メディアクエリ
+
+// @mixin pc {
+//     @media screen and (max-width: ($pc)) {
+//       @content;
+//     }
+//   }
+@mixin tab {
+    @media screen and (max-width: ($tab)) {
+      @content;
+    }
+  }
+  
+  @mixin sp {
+    @media screen and (max-width: ($sp)) {
+      @content;
+    }
+  }
+  @mixin sp2 {
+    @media screen and (max-width: ($sp2)) {
+      @content;
+    }
+  }
+
+// pc
+@mixin mainTitle{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: $color;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding-bottom: 60px;
+}
+@mixin subTitle{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 1.6rem;
+    color: $color;
+    letter-spacing: 0.2rem;
+    padding-bottom: 20px;
+}
+@mixin mainText{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 1.4rem;
+    color: $color;
+    letter-spacing: 0.2rem;
+    line-height: 2;
+    text-align: justify;
+    text-transform: uppercase;
+}
+@mixin productDetail{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 1.4rem;
+    color: $color;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    text-align: justify;
+    text-transform: uppercase;
+}
+@mixin productDetail2{
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 1.4rem;
+    color: $color;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    text-align: justify;
+    text-transform: uppercase;
+}
+@mixin productText{
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 1.5rem;
+    color: $color;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+@mixin mainTitle2{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding-bottom: 60px;
+}
+@mixin subTitle2{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 1.6rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    padding-bottom: 20px;
+}
+@mixin mainText2{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 1.5rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    line-height: 2;
+    text-align: justify;
+    text-transform: uppercase;
+}
+@mixin productText2{
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+@mixin inputText{
+    font-size: $inputText;
+    height: 30px;
+    width: 100%;
+    padding: 23px 12px;
+}
+@mixin inputTitle{
+    font-size: $inputTitle;
+    font-weight: normal;
+    padding: 100px 0 60px;
+}
+
+// tab
+@mixin mainTitleTab{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: $color;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding-bottom: 40px;
+}
+@mixin subTitleTab{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 1.4rem;
+    color: $color;
+    letter-spacing: 0.2rem;
+    padding-bottom: 20px;
+}
+@mixin mainTextTab{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 1.4rem;
+    color: $color;
+    letter-spacing: 0.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    text-transform: uppercase;
+}
+@mixin productDetailTab{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 1.4rem;
+    color: $color;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    text-align: justify;
+    text-transform: uppercase;
+}
+@mixin productDetail2Tab{
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 1.4rem;
+    color: $color;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    text-align: justify;
+    text-transform: uppercase;
+}
+@mixin productTextTab{
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 1.4rem;
+    color: $color;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+@mixin mainTitle2Tab{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding-bottom: 40px;
+}
+@mixin subTitle2Tab{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 1.4rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    padding-bottom: 20px;
+}
+@mixin mainText2Tab{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 1.4rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    text-transform: uppercase;
+}
+@mixin productText2Tab{
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+@mixin inputTextTab{
+    font-size: $inputText;
+    height: 30px;
+    width: 100%;
+    padding: 23px 12px;
+}
+@mixin inputTitleTab{
+    font-size: $inputTitle;
+    font-weight: normal;
+    padding: 90px 0 50px;
+}
+
+// hover
+@mixin hover {
+    @media (hover: hover) {
+      &:hover {
+        @content;
+      }
+    }
+  }
