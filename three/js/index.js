@@ -1,0 +1,12 @@
+$(function(){
+  $('.btn').click(function(){
+    $(this).toggleClass("on");
+    $('.main_nav').toggleClass("on");
+  });
+});
+$(function(){
+  $('.btn').click(function(){
+    $(this).toggleClass("on2");
+    $('.main_nav_product').toggleClass("on2");
+  });
+});
